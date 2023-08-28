@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: WorkSans;
+  src: url("../fonts/Work_Sans/WorkSans-VariableFont_wght.ttf");
+}
+
+/* * ---------- general style ---------- */
+
+html {
+  font-family: WorkSans;
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #2e2e2e;
+}
+
+main {
+  margin-bottom: 10rem;
+}
+
+header a {
+  text-decoration: none;
+  color: #867772;
+}
+
+nav,
+nav a,
+p {
+  color: #737373;
+  text-decoration: none;
+}
+
+p {
+  font-size: 1.6rem;
+  line-height: 150%;
+}
+
+h1,
+h2,
+h3 {
+  color: #ebccc2;
+}
+
+h3 {
+  font-size: 2.4rem;
+  font-weight: 300;
+}
+
+/* * ---------- header style ---------- */
+
+header {
+  display: flex;
+  font-size: 1.6rem;
+  justify-content: space-between;
+  padding: 3rem 5rem 3rem 4rem;
+}
+
+.header-links {
+  display: flex;
+  gap: 2.5rem;
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  margin-left: 2rem;
+}
+
+/* * ---------- nav style ---------- */
+
+/* * ---------- about page style ---------- */
+
+.home h3 {
+  width: 25rem;
+  height: 8.5rem;
+  margin: 0 60% 9rem 30%;
+}
+
+.index-img {
+  width: 120rem;
+  height: 142rem;
+  object-fit: cover;
+  margin: 0 auto;
+}
+
+.about-img {
+  width: 42rem;
+  height: 42rem;
+  object-fit: cover;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 11rem;
+}
+
+.about {
+  display: flex;
+  gap: 6.5rem;
+}
+
+.about div {
+  width: 42rem;
+  height: 42rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: center;
+  margin-bottom: 10rem;
+}
