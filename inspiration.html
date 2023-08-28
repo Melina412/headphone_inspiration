@@ -22,33 +22,61 @@
     </header>
 
     <main>
-      <aside>
+      <aside class="fixed-nav">
         <nav>
-          <div class="page-nav"><a href="#">ABOUT</a></div>
+          <div class="page-nav">
+            <span>◦</span>
+            <a href="#">ABOUT</a>
+          </div>
+
           <div class="nav-gap"></div>
-          <div class="page-nav"><a href="#">LOUNGER</a></div>
+          <div class="page-nav">
+            <span>◦</span>
+            <a href="#">LOUNGER</a>
+          </div>
+
           <div class="nav-gap"></div>
-          <div class="page-nav"><a href="#">EXPERIENCE</a></div>
+          <div class="page-nav">
+            <span>◦</span>
+            <a href="#">EXPERIENCE</a>
+          </div>
+
           <div class="nav-gap"></div>
-          <div class="page-nav"><a href="#">INSPIRATION</a></div>
+          <div class="page-nav">
+            <span class="border-ellipse">◦</span>
+            <a href="#">INSPIRATION</a>
+          </div>
+
           <div class="nav-gap"></div>
-          <div class="page-nav"><a href="#">SHOP</a></div>
+          <div class="page-nav">
+            <span>◦</span>
+            <a href="#">SHOP</a>
+          </div>
         </nav>
       </aside>
 
-      <section>
-        <div class="placeholder"></div>
-        <h3>AN ALCHEMY OF DESIGN, CRAFT AND SOUND.</h3>
-        <h1>Exist to Create.</h1>
-        <button>SOUND</button>
-        <button>DESIGN</button>
-        <button>CRAFT</button>
-        <p>We define our world through imagination.</p>
+      <section class="video-section">
+        <video controls width="750">
+          <source src="./assets/img/Magical_Home.mp4" type="video/mp4" />
+        </video>
+        <div class="mid-section">
+          <h3>AN ALCHEMY OF DESIGN, CRAFT AND SOUND.</h3>
+          <h1>Exist to Create.</h1>
+          <div class="buttons">
+            <button>SOUND</button>
+            <button>DESIGN</button>
+            <button>CRAFT</button>
+          </div>
+          <p>We define our world through imagination.</p>
+        </div>
       </section>
 
-      <section>
+      <section class="grid">
         <div>
           <img src="./assets/img/ETC_6.webp" alt="design element" />
+        </div>
+
+        <article>
           <h2>Sound Alchemy</h2>
           <h3>A feeling for sound</h3>
           <p>
@@ -57,12 +85,9 @@
             thrive by creating the most impactful, accurate and immersive sound
             experience possible.
           </p>
-        </div>
-      </section>
+        </article>
 
-      <section>
-        <div>
-          <img src="./assets/img/ETC_5.webp" alt="design element" />
+        <article>
           <h2>Sound Architecture</h2>
           <h3>Everything Starts with Architecture</h3>
           <p>
@@ -70,6 +95,9 @@
             engineer and a technical project manager taking us through the
             creation process of a new, ground breaking product
           </p>
+        </article>
+        <div>
+          <img src="./assets/img/ETC_5.webp" alt="design element" />
         </div>
       </section>
     </main>

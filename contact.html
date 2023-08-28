@@ -23,15 +23,34 @@
     <main>
       <aside>
         <nav>
-          <div class="page-nav"><a href="#">ABOUT</a></div>
+          <div class="page-nav">
+            <span>◦</span>
+            <a href="#">ABOUT</a>
+          </div>
+
           <div class="nav-gap"></div>
-          <div class="page-nav"><a href="#">LOUNGER</a></div>
+          <div class="page-nav">
+            <span>◦</span>
+            <a href="#">LOUNGER</a>
+          </div>
+
           <div class="nav-gap"></div>
-          <div class="page-nav"><a href="#">EXPERIENCE</a></div>
+          <div class="page-nav">
+            <span>◦</span>
+            <a href="#">EXPERIENCE</a>
+          </div>
+
           <div class="nav-gap"></div>
-          <div class="page-nav"><a href="#">INSPIRATION</a></div>
+          <div class="page-nav">
+            <span>◦</span>
+            <a href="#">INSPIRATION</a>
+          </div>
+
           <div class="nav-gap"></div>
-          <div class="page-nav"><a href="#">SHOP</a></div>
+          <div class="page-nav">
+            <span>◦</span>
+            <a href="#">SHOP</a>
+          </div>
         </nav>
       </aside>
 
@@ -46,7 +65,49 @@
           </section>
           <section class="mail">
             <label for="mail">Email</label>
-            <input type="email" id="" required placeholder="Email-Adresse" />
+            <input type="email" id="" required placeholder="Email address" />
+          </section>
+          <section class="submit-button">
+            <div>
+              <input type="submit" value="Subscribe!" />
+            </div>
+          </section>
+        </fieldset>
+      </form>
+
+      <form action="contact">
+        <section class="contact">
+          <div>Contact</div>
+        </section>
+        <fieldset>
+          <section class="name">
+            <label for="name">Name</label>
+            <input type="text" id="" required placeholder="Name" />
+          </section>
+          <section class="surname">
+            <label for="surname">Surame</label>
+            <input type="text" id="" required placeholder="Surname" />
+          </section>
+          <section class="mail">
+            <label for="mail">Email</label>
+            <input type="email" id="" required placeholder="Email address" />
+          </section>
+          <section class="topic">
+            <label for="topic">Topic</label>
+            <select name="" id="">
+              <option value="Shop"></option>
+              <option value="Headphones"></option>
+              <option value="Other"></option>
+            </select>
+          </section>
+          <section class="message">
+            <label for="message">Message</label>
+            <textarea name="" id="" cols="30" rows="5">Enter message</textarea>
+          </section>
+          <section class="submit-button">
+            <div>
+              <input type="submit" value="Send" />
+            </div>
           </section>
         </fieldset>
       </form>
